@@ -1,7 +1,7 @@
 #program to store user details
 def register():
     username = input("Enter a username: ")
-    def save_password(username):
+    def save_username(username):
         print("username saved successfully!")
 def get_password():
     while True:
