@@ -1,0 +1,41 @@
+#program to store user details
+def register():
+    username = input("Enter a username: ")
+    def save_password(username):
+        print("username saved successfully!")
+def get_password():
+    while True:
+        password = input("Enter your password: ")
+        confirm_password = input("Confirm your password: ")
+
+        if password == confirm_password:
+            print("Password confirmed!")
+            return password
+        else:
+            print("Passwords do not match. Please try again.")
+
+def save_password(password):
+    print("Password saved successfully!")
+
+# Usage
+password = get_password()
+save_password(password)
+
+print ("welcome to the login page")
+while True :
+    username = input ("enter your account number: ")
+    if username == username:
+        print("Username correct!")
+        break
+    else:
+        print("invalid username")
+        continue
+    while True :
+        Password = input ("enter your password")
+        if Password == password:
+            print("Password correct!")
+            break
+        else:
+            print("invalid password")
+            continue
+        print ("Login successful")
